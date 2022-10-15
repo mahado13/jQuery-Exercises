@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Review Site</title>
+</head>
+<body>
+    <h1>Movie Reviews!</h1>
+    <div id="part2">
+        <form id="movieForm">
+            <label for="titleInput"> Film Title:
+            <input type="text" name="" id="titleInput" placeholder="Please input a movie title">
+            </label>: Rating:
+            <label for="ratingInput" > 
+            <input type="number" min="1" max="10" name="" id="ratingInput"placeholder= "Pleaese score the movie">
+            </label>
+            <button type="submit" id="btnSubmit"> Submit Review!</button>
+        </form>
+    </div>
+    <table>
+    <tbody id = "movie-table">
+    </tbody>
+    </table>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src ="app.js"></script>
+</html>
